@@ -19,6 +19,18 @@
 #     i =i+1
 
 
+# ============================================================================================
+
+m = int(input("Enter the number of m: "))
+n = int(input("Enter the number of n: "))
+
+s =0
+while(m<=n):
+    s = s+ m
+    m = m+1
+print("Sum: ",s)
+
+
 
 
 
