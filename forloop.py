@@ -48,7 +48,30 @@
 
 # pattern question
 
-for i in range(1,6):
-    print()
-    for j in range(i):
-        print("*", end=" ")
+# for i in range(1,6):
+#     print()
+#     for j in range(i):
+#         print("*", end=" ")
+
+
+# ==========================================================================================
+# print pattern
+
+# for i in range(1,6):
+#     print()
+#     for j in range(0,i+1):
+#         print(j, end =" ")
+
+
+# ===========================================================================================
+#  Generate calender
+
+import calendar
+y = int(input("Enter the year: "))
+m = 1
+print("\n********** CALENDER **********")
+Cal = calendar.TextCalendar(calendar.SUNDAY)
+i=1
+while i<=12:
+    Cal.prmonth(y,i)
+    i+=1
