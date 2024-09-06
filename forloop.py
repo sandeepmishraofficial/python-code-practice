@@ -66,12 +66,46 @@
 # ===========================================================================================
 #  Generate calender
 
-import calendar
-y = int(input("Enter the year: "))
-m = 1
-print("\n********** CALENDER **********")
-Cal = calendar.TextCalendar(calendar.SUNDAY)
-i=1
-while i<=12:
-    Cal.prmonth(y,i)
-    i+=1
+# import calendar
+# y = int(input("Enter the year: "))
+# m = 1
+# print("\n********** CALENDER **********")
+# Cal = calendar.TextCalendar(calendar.SUNDAY)
+# i=1
+# while i<=12:
+#     Cal.prmonth(y,i)
+#     i+=1
+
+# ==========================================================================================
+# factorial number 
+
+# num = int(input("Enter the number: "))
+# if(num==0):
+#     fact = 1
+# fact = 1
+# for i in range(1,num+1):
+#     fact = fact*i
+# print("Factorial of",num,"is",fact)
+
+# ===============================================================================================
+# write the prime and composite
+
+# number = int(input("Enter the Number: "))
+# iscomposite = 0
+# for i in range(2,number):
+#     if(number%i==0):
+#         iscomposite =  1
+#         break
+# if(iscomposite ==1):
+#     print("number is composite")
+# else:
+#     print("number is prime")
+
+# =========================================================================================================
+# the pass statement 
+
+for i in "HELLO":
+    pass
+    print("pass :",i)
+print("Done")
+
