@@ -1,3 +1,3 @@
- <h1>Python Daily Commit code-
+ <h1> Daily Commit Python-code-
   practice</h1> 
 
