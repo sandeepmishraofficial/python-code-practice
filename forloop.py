@@ -102,10 +102,12 @@
 #     print("number is prime")
 
 # =========================================================================================================
-# the pass statement 
+# # the pass statement 
 
-for i in "HELLO":
-    pass
-    print("pass :",i)
-print("Done")
+# for i in "HELLO":
+#     pass
+#     print("pass :",i)
+# print("Done"
+for i in range(int(input("Enter a number"))):
+    print(i+1,end=" ")
 

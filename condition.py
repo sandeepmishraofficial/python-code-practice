@@ -60,13 +60,25 @@
 # <=================================================================================>
 # write the program prompts the user enter number between 1-7 and then display the corresponding day of the weak
 
-num = int(input("Enter any number between 1 to 7 : "))
-if(num==1): print("Sunday")
-elif(num==2): print("Monday")
-elif(num==3): print("Tuesday")
-elif(num==4): print("Wednesday")
-elif(num==5): print("Thursday")
-elif(num==6): print("Friday")
-elif(num==7): print("Saturday")
-else:
-    print("wrong input")
+# num = int(input("Enter any number between 1 to 7 : "))
+# if(num==1): print("Sunday")
+# elif(num==2): print("Monday")
+# elif(num==3): print("Tuesday")
+# elif(num==4): print("Wednesday")
+# elif(num==5): print("Thursday")
+# elif(num==6): print("Friday")
+# elif(num==7): print("Saturday")
+# else:
+#     print("wrong input")
+
+# ==================================================================================================
+# x = int(input("Enter a number"))
+# if(x%2):
+#     print("odd number")
+# else:
+#     print("even number")
+
+
+a = ~4
+b = a+4
+print(b)
